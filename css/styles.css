@@ -774,7 +774,7 @@
 
 .box {
   height: 300px;
-  background-color: #00a18f;
+  background:transparent;
   border: 10px solid #FFF;
   margin-top: 40px;
 }
@@ -814,7 +814,16 @@
 @media (max-width: 576px) {
 
   #portfolio {
-    height: 2240px;
+    height: 2520px;
+    padding-top: 20%;
+  }
+
+  .btn {
+    margin: 10px 0;
+  }
+
+  .box {
+    margin-bottom: 30px;
   }
 
 }
@@ -947,7 +956,11 @@
 @media (max-width: 576px) {
 
   #features {
-    height: 1090px;
+    height: 1300px;
+  }
+
+  .feature-heading {
+    font-size: 150%;
   }
 
   .feature-box1{
